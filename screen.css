@@ -4,7 +4,7 @@ html
 	padding: 0;
 	color: #aaaaaa;
 	background-color: #232222;
-	font: normal 12px "Trebuchet MS", "Lucida Grande", Verdana, Georgia, Sans-Serif;
+	font: normal 12px "Trebuchet MS", "Arial", Helvetia, Georgia, Sans-Serif;
 }
 
 /* Links */
@@ -58,7 +58,7 @@ dd { margin: 0; padding: 2px 0 5px; margin-bottom: 5px; border-bottom: 1px dotte
 
 dd.last { border-bottom-width: 0; }
 
-pre { font-family: Consolas, Verdana, "Courier New"; font-size: 11px; padding: 10px 30px; }
+pre { font-family: Consolas, Verdana, Arial; font-size: 11px; padding: 10px 30px; }
 
 code { color: #007EA7; }
 
