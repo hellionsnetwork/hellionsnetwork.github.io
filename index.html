@@ -5,17 +5,33 @@
  <link rel="shortcut icon" type="image/x-icon" href="hellionsnetwork.github.io/favicon heart .gif">
 <title>The Hellions Network</title>
  
-
-<title>My Chat Session</title>
-<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+ 
+ <head>
+<title>Hellions Forum Chat</title>
+<link type="text/css" rel="stylesheet" href="style.css" />
 </head>
-<body>
-<chat type="secure" action="discuss">
-  <post>
-    <textarea type="chat"></textarea>
-  </post>
-  <input type="button" name="chat" value="Chat Now" />
-</chat>
+ 
+<div id="wrapper">
+    <div id="menu">
+        <p class="welcome">Welcome, <b></b></p>
+        <p class="logout"><a id="exit" href="#">Exit Chat</a></p>
+        <div style="clear:both"></div>
+    </div>
+     
+    <div id="chatbox"></div>
+     
+    <form name="message" action="">
+        <input name="usermsg" type="text" id="usermsg" size="63" />
+        <input name="submitmsg" type="submit"  id="submitmsg" value="Send" />
+    </form>
+</div>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js"></script>
+<script type="text/javascript">
+// jQuery Document
+$(document).ready(function(){
+ 
+});
+</script>
 </body>
  
  
