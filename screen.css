@@ -1,8 +1,17 @@
+
+
+#E3E3E3 light grey
+
+#FFC4DF pink
+
+#FF96C6 dark pink
+
+
 html
 {
 	margin: 0;
 	padding: 0;
-	color: #aaaaaa;
+	color: #FF96C6;
 	background-color: #FFFFFF;
 	font: normal 12px Arial, Helvetia, Georgia, Sans-Serif;
 }
@@ -54,7 +63,7 @@ dt
 	text-transform: uppercase; 
 }
 
-dd { margin: 0; padding: 2px 0 5px; margin-bottom: 5px; border-bottom: 1px dotted #555555; }
+dd { margin: 0; padding: 2px 0 5px; margin-bottom: 5px; border-bottom: 1px dotted #FF96C6; }
 
 dd.last { border-bottom-width: 0; }
 
