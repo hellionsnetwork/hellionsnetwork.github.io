@@ -3,7 +3,7 @@ html
 	margin: 0;
 	padding: 0;
 	color: #aaaaaa;
-	background-color: #333333;
+	background-color: #232222;
 	font: normal 12px "Trebuchet MS", "Lucida Grande", Verdana, Georgia, Sans-Serif;
 }
 
@@ -13,7 +13,7 @@ a:link { text-decoration: none; color: #007EA7; }
 
 a:visited { text-decoration: none; color: #007EA7; }
 
-a:hover, a:active { color: #dd5555; }
+a:hover, a:active { color: #56686B; }
 
 /* Html Elements */
 
@@ -31,7 +31,7 @@ h5, h6 { font-size: 17px; }
 
 ul, ol, dl, blockquote, pre
 {
-	color: #007EA7;
+	color: #56686B;
 	margin: 10px 35px; 
 	padding: 10px 30px; 
 	line-height: 1.6em;
