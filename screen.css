@@ -17,7 +17,7 @@ a:hover, a:active { color: #dd5555; }
 
 /* Html Elements */
 
-h1, h2, h3, h4, h5, h6 { font-weight: normal; margin: 0; padding: 10px 0; color: #779955; }
+h1, h2, h3, h4, h5, h6 { font-weight: normal; margin: 0; padding: 10px 0; color: #007EA7; }
 
 h1 { font-size: 32px; }
 
@@ -31,7 +31,7 @@ h5, h6 { font-size: 17px; }
 
 ul, ol, dl, blockquote, pre
 {
-	color: #999999;
+	color: #007EA7;
 	margin: 10px 35px; 
 	padding: 10px 30px; 
 	line-height: 1.6em;
@@ -68,7 +68,7 @@ em { font-style: italic; }
 
 strong { font-weight: bold; }
 
-ins { color: #999999; text-decoration: none; padding-left: 20px; background: transparent url(images/information.png) center left no-repeat; }
+ins { color: #007EA7; text-decoration: none; padding-left: 20px; background: transparent url(images/information.png) center left no-repeat; }
 
 del { text-decoration: line-through; } 
 
@@ -144,11 +144,11 @@ body
 	clear: both;
 	float: left;
 	width: 100%; 
-	color: #888888;
+	color: #007EA7;
 	text-align: center; 
 	background-color: #222222;
 	border-top: 1px solid #000000;
-	border-bottom: 10px solid #191919;
+	border-bottom: 10px solid #007EA7;
 }
 
 /* Header */
