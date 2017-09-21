@@ -9,9 +9,9 @@ html
 
 /* Links */
 
-a:link { text-decoration: none; color: #7799bb; }
+a:link { text-decoration: none; color: #007EA7; }
 
-a:visited { text-decoration: none; color: #557799; }
+a:visited { text-decoration: none; color: #007EA7; }
 
 a:hover, a:active { color: #dd5555; }
 
@@ -47,7 +47,7 @@ ul { list-style-type: square; }
 dt
 {
 	margin: 0;
-	color: #7799bb;
+	color: #007EA7;
 	font-size: 10px; 
 	font-weight: bold;
 	padding: 10px 0 2px; 
@@ -60,7 +60,7 @@ dd.last { border-bottom-width: 0; }
 
 pre { font-family: Consolas, Verdana, "Courier New"; font-size: 11px; padding: 10px 30px; }
 
-code { color: #779955; }
+code { color: #007EA7; }
 
 abbr, acronym { text-decoration: none; border-bottom: 1px dotted #aaaaaa; cursor: help; }
 
@@ -171,7 +171,7 @@ body
 #navigation a:link,
 #navigation a:visited
 {
-	color: #002244; 
+	color: #007EA7; 
 	font-weight: bold; 
 	text-transform: uppercase; 
 }
@@ -179,7 +179,7 @@ body
 #navigation a:hover,
 #navigation a:active
 {
-	color: #7799bb;
+	color: #007EA7;
 	background: #333333 url(images/navigation_hover.gif) top left repeat;
 }
 
@@ -221,7 +221,7 @@ li#lcontact a:active
 
 body#babout li#labout a
 {
-	color: #99bbdd;
+	color: #007EA7;
 	background: #333333 url(images/navigation_hover.gif) 0 -2px repeat;
 }
 
