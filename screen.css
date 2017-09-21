@@ -251,8 +251,8 @@ body#babout li#labout a
 
 #footer p { margin: 15px 0; }
 
-#footer a:link { color: #FFC4DF; font-weight: bold; border-bottom: 1px dotted #888888; } 
+#footer a:link { color: #FFC4DF; font-weight: bold; border-bottom: 1px dotted #E3E3E3; } 
 
-#footer a:visited { color: #FFC4DF; font-weight: bold; border-bottom: 1px dotted #666666; }
+#footer a:visited { color: #FFC4DF; font-weight: bold; border-bottom: 1px dotted #E3E3E3; }
 
-#footer a:hover, #footer a:active { color: #999999; border-bottom: 1px solid #999999; }
+#footer a:hover, #footer a:active { color: #999999; border-bottom: 1px solid #E3E3E3; }
