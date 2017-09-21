@@ -4,9 +4,9 @@
 
  <link rel="shortcut icon" type="image/x-icon" href="hellionsnetwork.github.io/favicon heart .gif">
 <title>The Hellions Network</title>
- 
- 
- 
+
+
+
 <meta http-equiv="content-language" content="en-us" />
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <meta name="author" content="Anonymous" />
@@ -41,15 +41,15 @@
        <dd>Please contact the mediators and website creator with any
          comments, suggestions, or questions at: <i>hellionsnetwork@gmail.com</i>.</em> </dd>
    <dd> </dd>
-   
-   
-   
+
+
+
    Posting HTML
-   
-   
-   
-   
-   <?php 
+
+
+
+
+   <?php
 include('header.php');
 ?>
 <body>
@@ -80,20 +80,20 @@ include('header.php');
 	?>
 		<tr>
 			<td><?php echo $row['content']; ?></td>
-			<td width="50"><?php 
+			<td width="50"><?php
 	$comment_query=mysql_query("select * from comment where post_id='$id'")or die(mysql_error());
 	$count=mysql_num_rows($comment_query);
 	?>
 				<a href="#<?php echo $id; ?>" data-toggle="modal"><i class="icon-comments-alt"></i>&nbsp;<span class="badge badge-info"><?php echo $count; ?></span></a></td>
 			<td width="40"><a class="btn btn-danger" href="delete_post.php<?php echo '?id='.$id; ?>"><i class="icon-trash"></i></a></td>
 		</tr>
- 
+
 		<!-- Modal -->
 	<div id="<?php echo $id; ?>" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 	<div class="modal-header"> </div>
 	<div class="modal-body">
- 
-	<!----comment -->
+
+	<!--comment -->
 	<form  method="POST">
 		<input type="hidden" name="id" value="<?php echo $id; ?>">
 		<textarea rows="3" name="comment_content" class="span6" placeholder="Your Comment Here"></textarea>
@@ -107,8 +107,8 @@ include('header.php');
 	while($comment_row=mysql_fetch_array($comment)){ ?>
 	<div class="alert alert-success"><?php echo $comment_row['content']; ?></div>
 	<?php } ?>
-	<!--- end comment --> 
- 
+	<!--- end comment -->
+
 </div>
 <div class="modal-footer">
 	<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
@@ -124,36 +124,36 @@ include('header.php');
 <?php
 		if(isset($_POST['post'])){
 		$post_content=$_POST['post_content'];
- 
- 
+
+
 		mysql_query("insert into post (content) values('$post_content')")or die(mysql_error());
 		header('location:index.php');
- 
- 
+
+
 		}
 		?>
 <?php
 		if(isset($_POST['comment'])){
 		$comment_content=$_POST['comment_content'];
 		$post_id=$_POST['id'];
- 
+
 		mysql_query("insert into comment (content,post_id) values('$comment_content',$post_id)")or die(mysql_error());
 		header('location:index.php');
- 
- 
+
+
 		}
 		?>
 </body>
-   
-   
-   
-   
-   
-   
-  
+
+
+
+
+
+
+
       <h6>Resources</h6>
       <blockquote>
-       <p><a href="https://www.hollins.edu/on-campus/student-life/new-student-info/policy-on-transgender-issues/">Hollins Transgender Policy.</a> <a href="https://www.plannedparenthood.org/health-center/virginia/richmond/23221/richmond-health-center-3913-91750">Richmond Planned Parenthood.</a> Emergency 
+       <p><a href="https://www.hollins.edu/on-campus/student-life/new-student-info/policy-on-transgender-issues/">Hollins Transgender Policy.</a> <a href="https://www.plannedparenthood.org/health-center/virginia/richmond/23221/richmond-health-center-3913-91750">Richmond Planned Parenthood.</a> Emergency
           phone numbers and hotlines. <b><a href="https://thehellionsnetwork.slack.com/messages/C75PT6S0Y/">Live Chatroom.</a> </b>
         <a href="http://sidebyside.org/">Side by Side in Richmond.</a><a href="https://www.youtube.com/user/TransDIYer">Kat Blaque, </a><a href="https://www.youtube.com/user/ThePrinceSane">Stef Sanjati,</a> <a href="https://www.youtube.com/user/uppercaseCHASE1">Chase Ross,</a> <a href="https://www.youtube.com/user/JustinDennisYT">
          Riley Dennis.</a> ... Make a list of transfriendly therapists in Roanoke.</p>
@@ -164,24 +164,24 @@ include('header.php');
     <div id="sidebar">
       <h3>Guidelines</h3>
       <ul>
-        <li>Each member of the forum should remain consistently anonymous, optionally using only their chatroom username, for 
+        <li>Each member of the forum should remain consistently anonymous, optionally using only their chatroom username, for
          everyone's safety. If you choose to create a username when posting or for the live chatroom, please make sure it is
-         a username that will not easily identify you. 
+         a username that will not easily identify you.
        </li>
-    
-        <li>Everyone will have equal access to information provided on this forum. There will be 
+
+        <li>Everyone will have equal access to information provided on this forum. There will be
         no links to social media. This is a seperate entity.</li>
-        <li>All information provided, such as medical suggestions, should be sourced. This is 
+        <li>All information provided, such as medical suggestions, should be sourced. This is
         to prevent any potential health risks.</li>
       </ul>
-     
+
       <h3>Message from the website creator:</h3>
       <p>Hello and thank you for visiting my website. With the help of loved ones and the help of online resources,
      I've been able to provide a network for our transgender community here at Hollins and abroad. I created this website
-     after coming to the conclusion that transgender students at Hollins not only need support and resources, but that 
+     after coming to the conclusion that transgender students at Hollins not only need support and resources, but that
  love and information provided in a way that reduces the risk of anyone being outted. I vow to make this place as safe as
      I possibly can while each of us struggle every day to make our homes a safe space. This is where you have the ability
-     to speak your mind, ask questions, provide information, and love to our transgender community. Every type of trans 
+     to speak your mind, ask questions, provide information, and love to our transgender community. Every type of trans
      experience is welcome in this space. Every trans voice is welcome. Please contact me on the Live Chatroom (Slack) or
        by posting on either of the forums by addressing me as <b>Creator</b> and I will try to get back to you as soon as
      possible. Please use the live chatroom and the resources provided on this page for emergencies. I hope you enjoy your stay!</p>

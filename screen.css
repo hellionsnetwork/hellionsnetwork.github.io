@@ -7,13 +7,11 @@
 #FF96C6 dark pink
 
 
-html
-{
+html {
 	margin: 0;
 	padding: 0;
 	color: #FF96C6;
 	background-color: #FFFFFF;
-	font: normal 12px Arial, Helvetia, Georgia, Sans-Serif;
 }
 
 /* Links */
@@ -41,8 +39,8 @@ h5, h6 { font-size: 17px; }
 ul, ol, dl, blockquote, pre
 {
 	color: #FFC4DF;
-	margin: 10px 35px; 
-	padding: 10px 30px; 
+	margin: 10px 35px;
+	padding: 10px 30px;
 	line-height: 1.6em;
 	border: 1px solid #FFFFFF;
 	border-top: 10px solid #FFFFFF;
@@ -51,23 +49,23 @@ ul, ol, dl, blockquote, pre
 
 p { margin: 0; }
 
-ul { list-style-type: square; } 
+ul { list-style-type: square; }
 
 dt
 {
 	margin: 0;
 	color: #FFC4DF;
-	font-size: 10px; 
+	font-size: 10px;
 	font-weight: bold;
-	padding: 10px 0 2px; 
-	text-transform: uppercase; 
+	padding: 10px 0 2px;
+	text-transform: uppercase;
 }
 
 dd { margin: 0; padding: 2px 0 5px; margin-bottom: 5px; border-bottom: 1px dotted #FF96C6; }
 
 dd.last { border-bottom-width: 0; }
 
-pre { font-family: Consolas, Verdana, Arial; font-size: 11px; padding: 10px 30px; }
+pre { font-family: Arial; font-size: 11px; padding: 10px 30px; }
 
 code { color: #FFC4DF; }
 
@@ -79,7 +77,7 @@ strong { font-weight: bold; }
 
 ins { color: #FFC4DF; text-decoration: none; padding-left: 20px; background: transparent url(images/information.png) center left no-repeat; }
 
-del { text-decoration: line-through; } 
+del { text-decoration: line-through; }
 
 blockquote { text-align: right; }
 
@@ -93,13 +91,14 @@ body
 {
 	margin: 0;
 	float: left;
-	width: 100%; 
+	width: 100%;
+	font-family: Arial;
 }
 
 #header
 {
-	float: left; 
-	width: 100%; 
+	float: left;
+	width: 100%;
 	clear: both;
 	border-top: 10px solid #FFFFFF;
 	background: #FFFFFF url(images/navigation_hover.gif) top left repeat;
@@ -108,11 +107,11 @@ body
 #navigation
 {
 	float: left;
-	width: 100%; 
+	width: 100%;
 	clear: both;
 	color: #FFFFFF;
 	border-bottom: 5px solid #FFFFFF;
-	background: #FFFFFF . url(images/navigation_bg.gif) top left repeat; 
+	background: #FFFFFF . url(images/navigation_bg.gif) top left repeat;
 }
 
 #wrapper
@@ -120,8 +119,8 @@ body
 	clear: both;
 	float: left;
 	width: 100%;
-	margin: 10px 0; 
-	background: transparent url(images/hr_dotted.gif) 60% 0 repeat-y; 
+	margin: 10px 0;
+	background: transparent url(images/hr_dotted.gif) 60% 0 repeat-y;
 }
 
 #content-wrapper
@@ -152,9 +151,9 @@ body
 {
 	clear: both;
 	float: left;
-	width: 100%; 
+	width: 100%;
 	color: #101010;
-	text-align: center; 
+	text-align: center;
 	background-color: #FFC4DF;
 	border-top: 1px solid #FF96C6;
 	border-bottom: 10px solid #FF96C6;
@@ -174,15 +173,15 @@ body
 {
 	float: left;
 	display: block;
-	padding: 5px 10px; 
+	padding: 5px 10px;
 }
 
 #navigation a:link,
 #navigation a:visited
 {
-	color: #FFC4DF; 
-	font-weight: bold; 
-	text-transform: uppercase; 
+	color: #FFC4DF;
+	font-weight: bold;
+	text-transform: uppercase;
 }
 
 #navigation a:hover,
@@ -195,37 +194,37 @@ body
 li#lhome a:hover,
 li#lhome a:active
 {
-	background-position: 0 -3px; 
+	background-position: 0 -3px;
 }
 
 li#lproducts a:hover,
 li#lproducts a:active
 {
-	background-position: 0 1px; 
+	background-position: 0 1px;
 }
 
 li#lsolutions a:hover,
 li#lsolutions a:active
 {
-	background-position: 0 2px; 
+	background-position: 0 2px;
 }
 
 li#lmysterious a:hover,
 li#lmysterious a:active
 {
-	background-position: 0 -1px; 
+	background-position: 0 -1px;
 }
 
 li#labout a:hover,
 li#labout a:active
 {
-	background-position: 0 -2px; 
+	background-position: 0 -2px;
 }
 
 li#lcontact a:hover,
 li#lcontact a:active
 {
-	background-position: 0 -3px; 
+	background-position: 0 -3px;
 }
 
 body#babout li#labout a
@@ -239,8 +238,8 @@ body#babout li#labout a
 #sidebar p
 {
 	color: #FFFFFF;
-	margin: 10px 35px; 
-	padding: 5px 30px; 
+	margin: 10px 35px;
+	padding: 5px 30px;
 	line-height: 1.6em;
 	border: 1px solid #FFC4DF;
 	border-top: 10px solid #FFC4DF;
@@ -251,7 +250,7 @@ body#babout li#labout a
 
 #footer p { margin: 15px 0; }
 
-#footer a:link { color: #FFC4DF; font-weight: bold; border-bottom: 1px dotted #E3E3E3; } 
+#footer a:link { color: #FFC4DF; font-weight: bold; border-bottom: 1px dotted #E3E3E3; }
 
 #footer a:visited { color: #FFC4DF; font-weight: bold; border-bottom: 1px dotted #E3E3E3; }
 
