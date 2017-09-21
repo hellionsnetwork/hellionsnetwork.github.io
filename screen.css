@@ -3,21 +3,21 @@ html
 	margin: 0;
 	padding: 0;
 	color: #aaaaaa;
-	background-color: #232222;
+	background-color: #FFFFFF;
 	font: normal 12px Arial, Helvetia, Georgia, Sans-Serif;
 }
 
 /* Links */
 
-a:link { text-decoration: none; color: #007EA7; }
+a:link { text-decoration: none; color: #FFC4DF; }
 
-a:visited { text-decoration: none; color: #007EA7; }
+a:visited { text-decoration: none; color: #FFC4DF; }
 
-a:hover, a:active { color: #56686B; }
+a:hover, a:active { color: #FF96C6; }
 
 /* Html Elements */
 
-h1, h2, h3, h4, h5, h6 { font-weight: normal; margin: 0; padding: 10px 0; color: #007EA7; }
+h1, h2, h3, h4, h5, h6 { font-weight: normal; margin: 0; padding: 10px 0; color: #FFC4DF; }
 
 h1 { font-size: 32px; }
 
@@ -31,13 +31,13 @@ h5, h6 { font-size: 17px; }
 
 ul, ol, dl, blockquote, pre
 {
-	color: #56686B;
+	color: #FFC4DF;
 	margin: 10px 35px; 
 	padding: 10px 30px; 
 	line-height: 1.6em;
-	border: 1px solid #1a1a1a;
-	border-top: 10px solid #151515;
-	background: #404040 url(images/navigation_hover.gif) top left repeat;
+	border: 1px solid #FFFFFF;
+	border-top: 10px solid #FFFFFF;
+	background: #FFC4DF url(images/navigation_hover.gif) top left repeat;
 }
 
 p { margin: 0; }
@@ -47,7 +47,7 @@ ul { list-style-type: square; }
 dt
 {
 	margin: 0;
-	color: #007EA7;
+	color: #FFC4DF;
 	font-size: 10px; 
 	font-weight: bold;
 	padding: 10px 0 2px; 
@@ -60,7 +60,7 @@ dd.last { border-bottom-width: 0; }
 
 pre { font-family: Consolas, Verdana, Arial; font-size: 11px; padding: 10px 30px; }
 
-code { color: #007EA7; }
+code { color: #FFC4DF; }
 
 abbr, acronym { text-decoration: none; border-bottom: 1px dotted #aaaaaa; cursor: help; }
 
@@ -68,7 +68,7 @@ em { font-style: italic; }
 
 strong { font-weight: bold; }
 
-ins { color: #007EA7; text-decoration: none; padding-left: 20px; background: transparent url(images/information.png) center left no-repeat; }
+ins { color: #FFC4DF; text-decoration: none; padding-left: 20px; background: transparent url(images/information.png) center left no-repeat; }
 
 del { text-decoration: line-through; } 
 
@@ -92,8 +92,8 @@ body
 	float: left; 
 	width: 100%; 
 	clear: both;
-	border-top: 10px solid #111111;
-	background: #222222 url(images/navigation_hover.gif) top left repeat;
+	border-top: 10px solid #FFFFFF;
+	background: #FFFFFF url(images/navigation_hover.gif) top left repeat;
 }
 
 #navigation
@@ -101,9 +101,9 @@ body
 	float: left;
 	width: 100%; 
 	clear: both;
-	color: #333333;
-	border-bottom: 5px solid #222222;
-	background: #eeeeee url(images/navigation_bg.gif) top left repeat; 
+	color: #FFFFFF;
+	border-bottom: 5px solid #FFFFFF;
+	background: #FFFFFF . url(images/navigation_bg.gif) top left repeat; 
 }
 
 #wrapper
@@ -146,9 +146,9 @@ body
 	width: 100%; 
 	color: #007EA7;
 	text-align: center; 
-	background-color: #222222;
-	border-top: 1px solid #000000;
-	border-bottom: 10px solid #007EA7;
+	background-color: #FFC4DF;
+	border-top: 1px solid #FFFFFF;
+	border-bottom: 10px solid #FFC4DF;
 }
 
 /* Header */
@@ -171,7 +171,7 @@ body
 #navigation a:link,
 #navigation a:visited
 {
-	color: #007EA7; 
+	color: #FFC4DF; 
 	font-weight: bold; 
 	text-transform: uppercase; 
 }
@@ -179,8 +179,8 @@ body
 #navigation a:hover,
 #navigation a:active
 {
-	color: #007EA7;
-	background: #333333 url(images/navigation_hover.gif) top left repeat;
+	color: #FFC4DF;
+	background: #FFFFFF url(images/navigation_hover.gif) top left repeat;
 }
 
 li#lhome a:hover,
@@ -221,29 +221,29 @@ li#lcontact a:active
 
 body#babout li#labout a
 {
-	color: #007EA7;
-	background: #333333 url(images/navigation_hover.gif) 0 -2px repeat;
+	color: #FFC4DF;
+	background: #FFFFFF url(images/navigation_hover.gif) 0 -2px repeat;
 }
 
 /* Sidebar */
 
 #sidebar p
 {
-	color: #999999;
+	color: #FFFFFF;
 	margin: 10px 35px; 
 	padding: 5px 30px; 
 	line-height: 1.6em;
-	border: 1px solid #1a1a1a;
-	border-top: 10px solid #151515;
-	background: #404040 url(images/navigation_hover.gif) top left repeat;
+	border: 1px solid #FFC4DF;
+	border-top: 10px solid #FFC4DF;
+	background: #FFFFFF url(images/navigation_hover.gif) top left repeat;
 }
 
 /* Footer */
 
 #footer p { margin: 15px 0; }
 
-#footer a:link { color: #888888; font-weight: bold; border-bottom: 1px dotted #888888; } 
+#footer a:link { color: #FFC4DF; font-weight: bold; border-bottom: 1px dotted #888888; } 
 
-#footer a:visited { color: #666666; font-weight: bold; border-bottom: 1px dotted #666666; }
+#footer a:visited { color: #FFC4DF; font-weight: bold; border-bottom: 1px dotted #666666; }
 
 #footer a:hover, #footer a:active { color: #999999; border-bottom: 1px solid #999999; }
