@@ -44,7 +44,7 @@ ul, ol, dl, blockquote, pre
 	line-height: 1.6em;
 	border: 1px solid #FFFFFF;
 	border-top: 10px solid #FFFFFF;
-	background: #FFC4DF url(images/navigation_hover.gif) top left repeat;
+	background: #FFC4DF url(images/pixel_gif_background.gif) top left repeat;
 }
 
 p { margin: 0; }
@@ -101,7 +101,7 @@ body
 	width: 100%;
 	clear: both;
 	border-top: 10px solid #FFFFFF;
-	background: #FFFFFF url(images/navigation_hover.gif) top left repeat;
+	background: #F96C6F url(images/pixel_gif_background.gif) top left repeat;
 }
 
 #navigation
@@ -111,7 +111,7 @@ body
 	clear: both;
 	color: #FFFFFF;
 	border-bottom: 5px solid #FFFFFF;
-	background: #FFFFFF . url(images/navigation_bg.gif) top left repeat;
+	background: #FF96C6 . url(images/pixel_gif_background.gif) top left repeat;
 }
 
 #wrapper
@@ -188,7 +188,7 @@ body
 #navigation a:active
 {
 	color: #FFC4DF;
-	background: #FFFFFF url(images/navigation_hover.gif) top left repeat;
+	background: #FFFFFF url(images/pixel_gif_background.gif) top left repeat;
 }
 
 li#lhome a:hover,
@@ -230,7 +230,7 @@ li#lcontact a:active
 body#babout li#labout a
 {
 	color: #FFC4DF;
-	background: #FFFFFF url(images/navigation_hover.gif) 0 -2px repeat;
+	background: #FFFFFF url(images/pixel_gif_background.gif) 0 -2px repeat;
 }
 
 /* Sidebar */
@@ -243,7 +243,7 @@ body#babout li#labout a
 	line-height: 1.6em;
 	border: 1px solid #FFC4DF;
 	border-top: 10px solid #FFC4DF;
-	background: #FFFFFF url(images/navigation_hover.gif) top left repeat;
+	background: #FFFFFF url(images/pixel_gif_background.gif) top left repeat;
 }
 
 /* Footer */
