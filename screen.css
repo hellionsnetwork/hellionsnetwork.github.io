@@ -251,7 +251,13 @@ body#babout li#labout a
 	line-height: 1.6em;
 	border: 1px solid #FFC4DF;
 	border-top: 10px solid #FFC4DF;
-	background: #FFFFFF url(pixel\ gif\ background.gif) top left repeat;
+}
+
+#sidebar p 
+{
+	background: #FFFFFF top left repeat;
+	opacity: 0.75;
+	filter: alpha(opacity=75);
 }
 
 /* Footer */
