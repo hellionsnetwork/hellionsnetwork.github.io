@@ -44,6 +44,11 @@ ul, ol, dl, blockquote, pre
 	line-height: 1.6em;
 	border: 1px solid #FFC4DF;
 	border-top: 10px solid #FFC4DF;
+	
+}
+
+ul, ol, dl, blockquote, pre
+{
 	background: #FFFFFF top left repeat;
 	opacity: 0.75;
 	filter: alpha(opacity=75);
