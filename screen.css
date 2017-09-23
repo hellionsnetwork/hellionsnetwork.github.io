@@ -44,7 +44,9 @@ ul, ol, dl, blockquote, pre
 	line-height: 1.6em;
 	border: 1px solid #FFC4DF;
 	border-top: 10px solid #FFC4DF;
-	background: #FFC4DF url(pixel\ gif\ background.gif) top left repeat;
+	background: #FFFFFF top left repeat;
+	opacity: 0.75;
+	filter: alpha(opacity=75);
 }
 
 p { margin: 0; }
@@ -93,6 +95,7 @@ body
 	float: left;
 	width: 100%;
 	font-family: Arial;
+	background: #F96C6F url(pixel\ gif\ background.gif) top left repeat;
 }
 
 #header
