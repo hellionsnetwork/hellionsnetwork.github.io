@@ -118,7 +118,7 @@ body
 	width: 100%;
 	clear: both;
 	color: #FFFFFF;
-	border-bottom: 5px solid #FFFFFF;
+	border-bottom: 5px solid #000000;
 	background: #FF96C6 . url(pixel\ gif\ background.gif) top left repeat;
 }
 
