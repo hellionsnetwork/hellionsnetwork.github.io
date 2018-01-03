@@ -24,14 +24,15 @@ body {
   }
 }
 
+
 a {
-  color: #7ac143;
+  color: #efc6ef;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #7ac143;
+  color: #efc6ef;
   outline: none;
 }
 
